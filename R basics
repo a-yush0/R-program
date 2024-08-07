@@ -1,0 +1,13 @@
+r=c(6,5,8,3,"ayush",1.5,22/7)
+for(i in r)
+  print(i) 
+
+
+ i=1
+ sum=0
+ while(i<=10)
+ {
+   sum=sum+i
+   i=i+1
+}
+cat("sum of first 10 numbers",sum)
