@@ -1,0 +1,11 @@
+data5<-read.csv("Downloads/AirlinesOpenFlights.csv")
+print(data5)
+print(data4)
+sort(data5$AirlineID)
+summary(data5$AirlineID)
+
+
+print(data5)
+print(data4)
+data6<-merge(data5,data4)
+print(data6)
